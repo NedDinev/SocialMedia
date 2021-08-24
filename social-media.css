@@ -1,0 +1,36 @@
+footer {
+  background-color: rgb(61, 61, 61);
+}
+
+section {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style-type: none;
+  color: burlywood;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: left;
+}
+
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+img:hover {
+  -webkit-filter: none;
+  filter: none;
+  cursor: pointer;
+}
